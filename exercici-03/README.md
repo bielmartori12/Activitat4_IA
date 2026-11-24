@@ -5,6 +5,7 @@
 **Predicció (abans de començar):** amb quina temperatura creieu que el model encertarà més una multiplicació? I amb quina proposarà noms més variats?
 
 **La vostra predicció:**
+Suposo que amb la temperatura baixa no fallara i amb la alta proposara mes variants
 
 **Script:** aquest exercici no necessita cap paràmetre nou: feu servir `lab.py` tal com el teniu.
 
@@ -26,21 +27,22 @@
 
 | Prompt | Temperatura 0 | Temperatura 1.5 |
 | :- | :- | :- |
-| A: 487 × 693 (quantes vegades ha encertat?) | | |
-| B: noms de cafeteria (hi ha varietat? són repetits?) | | |
+| A: 487 × 693 (quantes vegades ha encertat?) | 0/3 | 0/3 |
+| B: noms de cafeteria (hi ha varietat? són repetits?) | son repetits | hi ha varietat |
 
 ## Preguntes
 
 1. Amb quina temperatura funciona millor cada tasca? Per què?
 
    **Resposta:**
+   Encara que no funciona be pero la multiplicació funciona millor amb temperatura 0 i en canvi amb noms funciona millor amb temperatura 1.5
 
 2. Quina temperatura triaríeu per a un assistent de codi? I per un generador de noms de projectes o de startups tecnològiques?
 
    **Resposta:**
+   Per a un assistent de codi triaria la temperatura baixa, en canvi per generadors de noms temperatura alta.
 
-per a un generador d'idees per a un eslògan?
 3. Amb temperatura 0, el model ha donat sempre la mateixa resposta al prompt A? Era correcta? Que una resposta sigui consistent vol dir que sigui correcta? Com resoldríeu aquest problema en una aplicació real?
 
    **Resposta:**
-
+   Sempre donaba la mateixa resposta pero no era correcte, per tant que sigui consistent no vol dir que estigui correcte. Intentaria utilitzar una temperatura mitjana o que el usuari hagui de confirmar.

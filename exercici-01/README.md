@@ -27,9 +27,9 @@
 
 | Temperatura | Resposta 1 | Resposta 2 | Resposta 3 |
 | :- | :- | :- | :- |
-| 0 | | | |
-| 0.8 | | | |
-| 1.5 | | | |
+| 0 | Estratègia | Estratègia | Estratègia |
+| 0.8 | Estratègia | Il·lustració | Responsabilitat |
+| 1.5 | Fantastisme | Insubordinació | Eteropea |
 
 ## Segona prova: una pregunta amb una sola resposta
 
@@ -43,24 +43,27 @@
 
 | Temperatura | Resposta 1 | Resposta 2 | Resposta 3 |
 | :- | :- | :- | :- |
-| 0 | | | |
-| 1.5 | | | |
+| 0 | París | París | París |
+| 1.5 | París | París | París |
 
 ## Preguntes
 
 1. Mireu la taula 1. Les tres respostes amb temperatura 0 són iguals? Per què? Compteu les lletres de la paraula: en té més de 10? Que sempre surti la mateixa paraula vol dir que sigui correcta?
 
    **Resposta:**
+   Si son iguals, ja que la temperatura es molt baixa. Si que te 10 lletres. No te perque ser la correcte pero es el mes probable.
 
 2. Què passa quan pugeu la temperatura? Surten paraules diferents? N'hi ha alguna que no tingui més de 10 lletres o que no sembli una paraula real?
 
    **Resposta:**
+   Si surten paraules diferents. Totes tenen 10 lletres i semblen reals.
 
 3. Mireu la taula 2. Les respostes sobre la capital canvien tant com les de la paraula quan puja la temperatura? Per què creieu que la temperatura hi té tan poc efecte? (Pista: quantes respostes correctes té cada pregunta? La temperatura només dona varietat quan el model dubta entre diverses opcions.)
 
    **Resposta:**
+   Les respostes no canvien. Crec que te tant poc efecte ja que es una pregunta que nomes hi ha una resposta correcte.
 
 4. Amb les vostres paraules: què fa el paràmetre `temperature`?
 
    **Resposta:**
-
+   Si la temperatura es alta les respostes varien més i si es baixa al contrari.

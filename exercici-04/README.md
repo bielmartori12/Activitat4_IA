@@ -5,6 +5,7 @@
 **Predicció (abans de començar):** si repetiu el mateix prompt amb la mateixa llavor, creieu que sortirà exactament la mateixa resposta?
 
 **La vostra predicció:**
+Jo crec que pot variar.
 
 1. **Actualitzeu `lab.py`:** afegiu l'opció `--seed` (per exemple, `--seed 42`), que va dins d'`options` i només s'ha d'enviar si s'indica.
    - Per demanar-ho al model, feu `/bye`, torneu a executar `ollama run gemma3:4b` i enganxeu-hi el vostre `lab.py` escrivint abans «Tinc aquest script de Python, `lab.py`:». Demaneu-li només el canvi nou i que us torni el codi complet. Feu el mateix als exercicis següents.
@@ -26,20 +27,22 @@
 
 | Llavor (seed) | Nom 1 | Nom 2 | Nom 3 | Són iguals? |
 | :- | :- | :- | :- | :- |
-| Cap (aleatòria) | | | | |
-| 42 | | | | |
+| Cap (aleatòria) | Metafísica de la Memòria Binària | Semàntica de les Tardes de Quarts | Semàntica de les Tardes de Quarts | no |
+| 42 | Semàntica de les Tardes de Quarts | Semàntica de les Tardes de Quarts | Semàntica de les Tardes de Quarts | si |
 
 ## Preguntes
 
 1. Quan la llavor és la mateixa, els tres noms són iguals o diferents? Proveu ara una altra llavor (per exemple, `--seed 43`): surt el mateix nom?
 
    **Resposta:**
+   Cuant la llavor es la mateixa els tres noms son iguals, pero al canviar la llavor el tres noms segueixen sent iguals pero son diferens de la llavor anterior.
 
 2. Penseu en una situació en què voldríeu obtenir exactament la mateixa resposta dues vegades (per exemple, per trobar un error en un programa). Quina?
 
    **Resposta:**
+   
 
 3. Compareu els vostres noms amb els d'una altra persona de la classe que hagi fet servir la mateixa llavor. Són iguals? Per què creieu que pot passar?
 
    **Resposta:**
-
+   Son diferents

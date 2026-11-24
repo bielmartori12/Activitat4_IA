@@ -79,6 +79,7 @@
 ## El vostre prompt final
 
 _Enganxeu aquí el prompt que heu donat al model per generar `lab.py`._
+He utilitzat el text del 3
 
 Deseu l'script `lab.py` a l'arrel del repositori (no en aquesta carpeta).
 
@@ -87,8 +88,9 @@ Deseu l'script `lab.py` a l'arrel del repositori (no en aquesta carpeta).
 1. Quants intents us han calgut? Quins errors ha comès el model (nom del model, paràmetres, lectura dels arguments...) i com els heu resolt?
 
    **Resposta:**
+   Al primer intent el script nomes hem retornaba la primera lletra de cada resposta, he tancat la sesio de ollama i al tornarla a obrir i demanarli el codi de nou, la fet perfecte.
 
 2. Heu llegit el codi abans d'executar-lo? Per què és important entendre el que s'executa a l'ordinador, encara que l'hagi escrit un model?
 
    **Resposta:**
-
+   Si que le llegit, es important llegirlo per si el codi conte algo que et pugui generar problemes a l'hora de execuatar-lo.
